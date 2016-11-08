@@ -6,22 +6,28 @@ This is a starting template for creating new applications with Form.io.  Here is
 Installation
 =============
 
- - Install Gulp and Bower
+- Install Gulp and Bower
  
     ```
     npm install -g gulp bower
     ```
-    
-  - Download this repo locally.
-  - Install dependencies
-  
+
+- Download this repo locally.
+
+    ```
+    git clone git@github.com:formio/formio-app-template.git
+    cd formio-app-template
+    ```
+
+- Install dependencies
+
     ```
     bower install
     npm install
     ```
-    
-  - Run the application.
-  
+
+- Run the application.
+
     ```
     gulp serve
     ```
