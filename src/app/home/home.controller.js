@@ -3,11 +3,8 @@
 
   angular
     .module('formioApp')
-    .run(runBlock);
+    .controller('HomeController', HomeController);
 
   /** @ngInject */
-  function runBlock($log) {
-    $log.debug('runBlock end');
-  }
-
+  function HomeController() {}
 })();

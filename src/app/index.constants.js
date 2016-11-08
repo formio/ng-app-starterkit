@@ -2,6 +2,6 @@
 (function() {
   'use strict';
   angular
-    .module('formioAppTemplate')
+    .module('formioApp')
     .constant('moment', moment);
 })();

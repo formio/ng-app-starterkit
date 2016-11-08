@@ -1,6 +1,6 @@
 (function() {
   'use strict';
-  angular.module('formioAppTemplate', [
+  angular.module('formioApp', [
     'ngSanitize',
     'ui.router',
     'ui.bootstrap',
