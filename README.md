@@ -14,11 +14,14 @@ Installation
     
   - Download this repo locally.
   - Install dependencies
+  
     ```
     bower install
     npm install
     ```
+    
   - Run the application.
+  
     ```
     gulp serve
     ```
