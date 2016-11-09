@@ -15,8 +15,8 @@ Installation
 - Download this repo locally.
 
     ```
-    git clone git@github.com:formio/formio-app-template.git
-    cd formio-app-template
+    git clone git@github.com:formio/ng-app-startkit.git
+    cd ng-app-starterkit
     ```
 
 - Install dependencies
