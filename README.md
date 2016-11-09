@@ -1,7 +1,7 @@
-A starting template for creating new web applications with Form.io
+An Angular 1.x starting template for creating new web applications with Form.io
 ----------------------------------
 
-This is a starting template for creating new applications with Form.io.  Here is how to get started.
+This is a starting template for creating new applications with Form.io. It is based on Angular 1.x architecture. Here is how to get started.
 
 Installation
 =============
