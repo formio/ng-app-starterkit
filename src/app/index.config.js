@@ -6,8 +6,8 @@
     .config(config);
 
   /** @ngInject */
-  function config($logProvider) {
+  function config($logProvider, $locationProvider) {
+    $locationProvider.hashPrefix('');
     $logProvider.debugEnabled(true);
   }
-
 })();

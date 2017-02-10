@@ -6,7 +6,7 @@
     .config(routerConfig);
 
   /** @ngInject */
-  function routerConfig($stateProvider, $urlRouterProvider, FormioProvider, AppConfig) {
+  function routerConfig($stateProvider, $urlRouterProvider, $injector, FormioProvider, AppConfig, FormioResourceProvider) {
     FormioProvider.setBaseUrl(AppConfig.apiUrl);
 
     $stateProvider
@@ -16,6 +16,11 @@
         controller: 'HomeController',
         controllerAs: 'home'
       });
+
+    // Register all of the resources.
+    angular.forEach(AppConfig.resources, function(resource, name) {
+      FormioResourceProvider.register(name, resource.form, $injector.get(resource.resource + 'Provider'));
+    });
 
     $urlRouterProvider.otherwise('/');
   }

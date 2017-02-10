@@ -4,6 +4,7 @@
     'ngSanitize',
     'ui.router',
     'ui.bootstrap',
-    'formio'
+    'formio',
+    'ngFormioHelper'
   ]);
 })();

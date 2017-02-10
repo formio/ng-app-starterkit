@@ -7,7 +7,7 @@
  *  application.
  */
 angular.module('formioApp')
-  .provider('Resource', function() {
+  .provider('UserResource', function() {
     return {
       $get: function() { return null; },
 
