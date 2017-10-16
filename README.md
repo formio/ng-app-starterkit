@@ -15,7 +15,7 @@ Installation
 - Download this repo locally.
 
     ```
-    git clone git@github.com:formio/ng-app-startkit.git
+    git clone git@github.com:formio/ng-app-starterkit.git
     cd ng-app-starterkit
     ```
 
