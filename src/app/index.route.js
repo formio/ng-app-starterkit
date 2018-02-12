@@ -17,6 +17,13 @@
         controllerAs: 'home'
       });
 
+    $stateProvider
+      .state('demographics', {
+        url: '/demographics',
+        templateUrl: 'app/pages/demographics.html',
+        controller: 'DemographicsController'
+      });
+
     // Register all of the resources.
     angular.forEach(AppConfig.resources, function(resource, name) {
       FormioResourceProvider.register(name, resource.form, $injector.get(resource.resource + 'Provider'));

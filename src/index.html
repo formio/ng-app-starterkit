@@ -38,7 +38,8 @@
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
-                <li class="active"><a ui-sref="home">Home</a></li>
+                <li ng-class="{active:isActive('home')}"><a ui-sref="home">Home</a></li>
+                <li ng-class="{active:isActive('demographics')}"><a ui-sref="demographics">Demographics</a></li>
               </ul>
             </div><!--/.nav-collapse -->
           </div>
