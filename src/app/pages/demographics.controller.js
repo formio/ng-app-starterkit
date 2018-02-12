@@ -7,7 +7,6 @@
 
   /** @ngInject */
   function DemographicsController($scope, $state) {
-   console.log('DemographicsController Loaded');
     $scope.$on('formSubmit', function(event, submission) {
       // Occurs before submission to server. The request can be cancelled with event.preventDefault();
     });
